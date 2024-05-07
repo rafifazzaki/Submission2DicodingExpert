@@ -157,7 +157,7 @@ describe('CommentRepositoryPostgres', () => {
       
       // Action
       const successResult = commentRepositoryPostgres.verifyCommentAvailability(
-        'comment-stringCommentId',
+        'comment-stringCommentIdfail', //fail.
         'thread-stringThreadId',
       );
       
