@@ -101,7 +101,7 @@ describe('CommentRepositoryPostgres', () => {
     });
   });
 
-  describe('verivyCommentAvailability', () => {
+  describe('verifyCommentAvailability', () => {
     it('should throw error when comment is not found', async () => {
       await UsersTableTestHelper.addUser({
         id: 'user-stringUserId',
