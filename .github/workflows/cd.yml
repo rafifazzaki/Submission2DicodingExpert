@@ -18,7 +18,7 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         port: ${{ secrets.SSH_PORT }}
         script: |
-          cd ~/auth-api
+          cd ~/Submission2DicodingExpert
           git pull origin master
           npm install
           npm run migrate up
